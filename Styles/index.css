@@ -1,3 +1,13 @@
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
 .logo {
     color: #0A1B32;
     font-size: 30px;
@@ -8,4 +18,25 @@
     word-wrap: break-word;
     margin-top: 37px;
     margin-left: 80px;
+}
+
+.logo-dot {
+    color: #824FF1;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    word-wrap: break-word;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sign-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
 }
